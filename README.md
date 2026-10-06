@@ -19,7 +19,7 @@ Minimal static pages for Google OAuth consent-screen hosting.
 
 ## Still needs a real value
 
-Replace every **`[PLACEHOLDER: contact email]`** in `privacy.html` (and the source markdown if you keep it in sync) with the operator email for 손영태 / Najeon Radio before submitting OAuth for production.
+Contact email in `privacy.html` is set to **`najeonradio@gmail.com`** (operator email for 손영태 / Najeon Radio).
 
 Example: `you@example.com` — do not leave the yellow placeholder marker in a production-submitted URL.
 
