@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Najeon Radio · 나전 라디오</title>
+  <meta name="description" content="Najeon Radio publishing tool for YouTube uploads — OAuth app homepage">
+  <style>
+    :root {
+      --bg: #0f1115;
+      --fg: #e8eaed;
+      --muted: #9aa0a6;
+      --accent: #8ab4f8;
+      --card: #1a1d24;
+      --border: #2a2f3a;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans KR", sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    main {
+      max-width: 40rem;
+      margin: auto;
+      padding: 3rem 1.5rem;
+      flex: 1;
+    }
+    h1 { font-size: 1.75rem; font-weight: 650; margin: 0 0 0.35rem; }
+    .sub { color: var(--muted); margin: 0 0 1.75rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.4rem;
+      margin-bottom: 1.25rem;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { padding-left: 1.2rem; margin: 0.5rem 0 0; }
+    li { margin: 0.35rem 0; }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      color: var(--muted);
+      font-size: 0.875rem;
+      border-top: 1px solid var(--border);
+    }
+    .ko { color: var(--muted); font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Najeon Radio · 나전 라디오</h1>
+    <p class="sub">Publishing tool for YouTube uploads<br>
+      <span class="ko">YouTube 업로드용 게시 도구</span></p>
+
+    <div class="card">
+      <p>This site is the public homepage for the <strong>Najeon Radio</strong> OAuth application (Google Cloud project <code>najeon-radio</code>). The app is an internal publishing tool used by the channel operator to upload and manage videos on the YouTube channel <a href="https://www.youtube.com/@najeonradio" rel="noopener">@najeonradio</a>.</p>
+      <p class="ko">이 사이트는 나전 라디오 OAuth 앱의 공개 홈페이지입니다. 채널 운영자가 YouTube 채널에 동영상을 업로드·관리하기 위한 내부 게시 도구입니다.</p>
+    </div>
+
+    <div class="card">
+      <strong>Links / 링크</strong>
+      <ul>
+        <li><a href="privacy.html">Privacy Policy / 개인정보처리방침</a></li>
+        <li><a href="https://www.youtube.com/@najeonradio" rel="noopener">YouTube channel @najeonradio</a></li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    Operator: 손영태 (Youngtae Son) / Najeon Radio · Effective 2026-10-07
+  </footer>
+</body>
+</html>
